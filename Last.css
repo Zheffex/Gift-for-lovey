@@ -49,12 +49,15 @@ h3.name {
 
 @media screen and (max-width: 768px){
     .creator {
+        overflow: hidden;
+        size: 50%;
         display: inline;
         font-size: auto; /* Adjust font size for smaller screens */
-        margin-right: 70px; /* Remove margin right for better responsiveness */
+        margin-right: 50px; /* Remove margin right for better responsiveness */
     }
 
     .icon-container {
+        margin: 0px 10px 0px 10px;
         flex-wrap: wrap; /* Allow icons to wrap */
         gap: 10px; /* Adjust gap for smaller screen spacing */
     }
